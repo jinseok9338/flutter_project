@@ -41,8 +41,8 @@ class ApiHelperImpl extends GetConnect with ApiHelper {
     });
   }
 
-  @override
-  Future<Response<dynamic>> getPosts() {
-    return get('posts');
-  }
+  // @override
+  // Future<Response<dynamic>> getPosts() {
+  //   return get('posts');
+  // }
 }
